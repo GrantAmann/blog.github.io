@@ -1,5 +1,4 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <html>
 
@@ -66,39 +65,6 @@
             float: right;
         }
 
-        @media screen and (max-width: 500px) {
-            .header a {
-                float: none;
-                display: block;
-                text-align: left;
-                padding: none;
-            }
-
-            .header-right {
-                float: none;
-            }
-
-            .footer {
-                float: none;
-                display: block;
-                text-align: left;
-            }
-
-            header {
-                width: 100%;
-            }
-
-            body {
-                width: 100%;
-                padding: none;
-                margin: none;
-            }
-
-            icons {
-                width: 100%;
-            }
-        }
-
         .body {
             padding-left: 20px;
             width: 600px;
@@ -107,8 +73,11 @@
         }
 
         .post {
+            width: 600px;
             padding-top: 40px;
             padding-bottom: 10px;
+            margin-left: auto;
+            margin-right: auto;
         }
 
         .post a {
@@ -180,6 +149,74 @@
 
         }
 
+        @media screen and (max-width: 800px) {
+
+            .header {
+                width: 95%;
+                margin: none;
+                padding: none;
+
+
+            }
+
+            .footer {
+                float: left;
+                margin: none;
+                width: 100%;
+            }
+        }
+
+        @media screen and (max-width: 600px) {
+
+            .header {
+                width: 95%;
+                margin: none;
+                padding: none;
+
+
+            }
+
+            .header a {
+                float: none;
+                display: block;
+                text-align: left;
+                padding: none;
+                margin: none;
+
+            }
+
+            .header-right {
+                float: none;
+                margin: none;
+            }
+
+
+            .footer {
+                display: block;
+                float: left;
+                margin: none;
+                width: 100%;
+
+            }
+
+            .post {
+                width: 80%;
+            }
+
+            .footer-right {
+                padding-left: 40px;
+                float: left;
+            }
+
+            .icons {
+                width: 400px;
+
+                padding-top: 60px;
+                display: grid;
+                place-items: center center;
+                padding-bottom: 30px;
+            }
+        }
     </style>
 </head>
 
