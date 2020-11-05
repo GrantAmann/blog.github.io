@@ -1,0 +1,29 @@
+ <?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+<channel>
+    
+  <title>Grant Amann Blog</title>
+    
+    
+  <link>https://grantamann.com/</link>
+  <description>Grant's Blog Update</description>
+  
+    <item>
+    <title>The Ark</title>
+    <link>https://www.w3schools.com/nov/ark.html</link>
+    <description>Mormon Music:The Ark</description>
+  </item>
+    
+    <item>
+    <title>Why I Oppose Prop 22</title>
+    <link>https://grantamann.com/oct/prop22.html/</link>
+    <description>I am opposed to Prop 22, but it is worth considering. </description>
+  </item>
+  
+    
+    
+    
+</channel>
+
+</rss> 
